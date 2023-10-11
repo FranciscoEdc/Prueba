@@ -4,3 +4,4 @@
     echo $prueba;
 
 ?>
+<p>El nombre es: <?php echo $nombre; ?></p>
