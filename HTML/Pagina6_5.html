@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <p><b>Sistema de Reserva de Habitaciones:</b></p>
+    <form action="mailto:franciscofg22@educastur.es" method="post" enctype="text/plain">
+        <p>Introduzca su nombre:<br><textarea name="nombre" rows="3" cols="15"></textarea></p>
+        <p>Introduzca su NIF:<br><textarea name="nif" rows="2" cols="15"></textarea></p>
+        <p>Tipo de habitación:<br>
+            <input type="radio" name="habitacion" value="soltero/a">Soltero/a<br>
+            <input type="radio" name="habitacion" value="casado/a">Casado/a<br>
+        </p>
+        <p>Opciones:<br>
+            <input type="checkbox" name="opciones" value="desayunohabitacion">Desayuno en la habitación<br>
+            <input type="checkbox" name="opciones" value="jakuzzi">Jakuzzi<br>
+            <input type="checkbox" name="opciones" value="climatizador">Climatizador<br>
+        </p>
+        <p>Formas de pago:<br>
+            <input type="radio" name="pago" value="efectivo">Efectivo<br>
+            <input type="radio" name="pago" value="cheque">Cheque<br>
+            <input type="radio" name="pago" value="tarjetacredito">Tarjeta de crédito<br>
+        </p>
+        <p>Enviar factura a empresa:<br>
+            <input type="radio" name="factura" value="si">Sí<br>
+            <input type="radio" name="factura" value="no">No<br>
+        </p><br>
+        <input type="submit" value="Aceptar">
+        <input type="reset" value="Borrar">
+    </form>
+</body>
+</html>
