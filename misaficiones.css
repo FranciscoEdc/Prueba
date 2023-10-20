@@ -1,0 +1,36 @@
+body{
+    background-color:rgb(190, 190, 190);
+}
+
+ul{
+    color:red;
+}
+
+ol{
+    color:red;
+}
+
+.p1{
+    color:white;
+}
+
+.p2{
+    color:blue;
+}
+
+.p3{
+    color:red;
+    font-style:italic;
+}
+
+.p4{
+    background-color:rgb(121, 121, 0);
+    color:red;
+    width:220px;
+    text-align:center;
+}
+
+#deportes{
+    background-color:rgb(88, 0, 204);
+    width: 20%;
+}

@@ -1,0 +1,13 @@
+body{
+    font-family:Verdana;
+    background-color:aqua;
+    color:yellow;
+    font-size:60px;
+}
+p{
+    font-family:"Trebuchet MS";
+    color:white;
+    background-color:black;
+    font-size:12pt;
+    text-align:center;
+}

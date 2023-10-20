@@ -1,0 +1,15 @@
+body{
+    background-color:black; /*Ésto es un comentario*/
+}
+p{
+    width: 200px;
+    height: 100px;
+    color: white;
+    border: red solid;
+}
+.p1{
+    box-sizing: border-box;
+}
+.p2{
+    box-sizing: content-box;
+}
