@@ -1,0 +1,61 @@
+/*Éste es el estilo que se aplicará al body*/
+body{
+    color: white;
+    background-color: silver;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    font-size: 25pt;
+}
+/*Éste es el estilo que se aplicará a h1*/
+h1{
+    text-align: center;
+    color: green;
+    word-spacing: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+/*Éste es el estilo que se aplicará a h2*/
+h2{
+    font-style: italic;
+    text-transform: lowercase;
+    color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Éste es el estilo que se aplicará a h3*/
+h3{
+    font-style: italic;
+    text-transform: capitalize;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*Éste es el estilo que se aplicará a h4*/
+h4{
+    text-transform: capitalize;
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+/*Éste es el estilo que se aplicarán a h5 y h6*/
+h5,h6{
+    text-decoration: dashed;
+    color: black;
+    font-size: 14px;
+}
+/*Éste es el estilo que se aplicará a párrafos*/
+p{
+    text-align: right;
+    width: 250px;
+    background-color: chocolate;
+    border: solid;
+    border-color: yellow;
+    border-width: 0.5cm;
+}
+/*Éste es el estilo que se aplicará a listas desordenadas*/
+ul{
+    width: 500px;
+    background-color: skyblue;
+}
+/*Éste es el estilo que se aplicará a listas ordenadas*/
+ol{
+    width: 700px;
+    background-color: skyblue;
+}
