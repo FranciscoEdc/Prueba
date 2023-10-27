@@ -1,0 +1,28 @@
+.prdt{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.tb1{
+    color: orange;
+}
+.tb2{
+    background-color: blue;
+    border-color: black;
+    color: gold;
+}
+.tb3{
+    background-color: red;
+    color: lime;
+}
+.tb4{
+    border-color: black;
+    border-width: 10px;
+    background-color: grey;
+    color: black;
+}
+.tb5{
+    border-color: wheat;
+    border-width: 5px;
+    color: wheat;
+}
