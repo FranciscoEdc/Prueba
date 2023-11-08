@@ -1,18 +1,36 @@
 #cabecera{
     font-family: Arial, Helvetica, sans-serif;
     font-style: oblique;
+<<<<<<< HEAD
     font-size: x-large;
+=======
+    font-size: medium;
+>>>>>>> 34e9355dd338849261c1d1157d478a4a8c365fdd
     text-align: center;
 }
 #indice{
     text-transform: lowercase;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+<<<<<<< HEAD
     font-size: large;
 }
 #contenido{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+=======
+    font-size: small;
+}
+#contenido{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+>>>>>>> 34e9355dd338849261c1d1157d478a4a8c365fdd
 }
 #piedepagina{
     font-weight: bold;
     text-align: center;
+<<<<<<< HEAD
+=======
+}
+h2{
+    font-size: medium;
+>>>>>>> 34e9355dd338849261c1d1157d478a4a8c365fdd
 }
