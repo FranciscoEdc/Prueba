@@ -1,0 +1,53 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("papel_arrugado.jpg");
+}
+h1{
+    border:solid grey;
+    background-color: darkgrey;
+    text-align: left;
+    margin-bottom: 0px;
+    border-bottom: none;
+}
+h2{
+    border:solid grey;
+    background-color: gainsboro;
+    text-align: right;
+    margin-top: 0px;
+    border-top: none;
+}
+.bloque{
+    float:left;
+    margin-left: 10px;
+    padding: 0px 10px 0px 10px;
+    border-style:none dotted none dotted;
+    border-color: grey;
+    width: 150px;
+}
+h3{
+    position:relative;
+    margin:0px;
+    margin-bottom: 5px;
+    padding:5px 0px 5px 0px;
+    text-align: center;
+    font-size: large;
+    background-color: gainsboro;
+    text-transform: uppercase;
+    word-wrap:visible;
+}
+div{
+    border:solid;
+    margin:0px;
+    margin-bottom: 5px;
+    overflow-x:auto
+}
+h4{
+    background-color: darkgrey;
+    color: white;
+    text-align: right;
+    font-size: large;
+    margin:0px;
+}
+p{
+    margin: 5px;
+}

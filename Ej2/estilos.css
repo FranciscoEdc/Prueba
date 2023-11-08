@@ -1,0 +1,40 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: darkgrey;
+    font-size: large;
+}
+#m1{
+    position: relative;
+    margin-left: 30%;
+    border:saddlebrown solid;
+    background-color: darkkhaki;
+    width:600px;
+    height:100px;
+}
+#m2{
+    z-index: 1;
+    position:absolute;
+    margin-left:40%;
+    margin-top:200px;
+    border:green solid;
+    background-color: lime;
+    width:250px;
+    height:250px;
+}
+#m3{
+    position: absolute;
+    margin-left:30%;
+    border:gold solid;
+    background-color: yellow;
+    width:250px;
+    height:250px;
+}
+#m4{
+    position: absolute;
+    margin-right:10%;
+    border:turquoise solid;
+    background-color: cyan;
+    width:250px;
+    height:250px;
+}
