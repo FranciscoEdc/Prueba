@@ -6,7 +6,7 @@ body{
 }
 #m1{
     position: relative;
-    margin-left: 30%;
+    left: 30.5%;
     border:saddlebrown solid;
     background-color: darkkhaki;
     width:600px;
@@ -15,8 +15,8 @@ body{
 #m2{
     z-index: 1;
     position:absolute;
-    margin-left:40%;
-    margin-top:200px;
+    left:41%;
+    top:40%;
     border:green solid;
     background-color: lime;
     width:250px;
@@ -24,7 +24,7 @@ body{
 }
 #m3{
     position: absolute;
-    margin-left:30%;
+    left:30%;
     border:gold solid;
     background-color: yellow;
     width:250px;
@@ -32,9 +32,27 @@ body{
 }
 #m4{
     position: absolute;
-    margin-right:10%;
+    right:31%;
     border:turquoise solid;
     background-color: cyan;
+    width:250px;
+    height:250px;
+}
+#m5{
+    position: absolute;
+    top:60%;
+    left:30%;
+    border:purple solid;
+    background-color: violet;
+    width:250px;
+    height:250px;
+}
+#m6{
+    position: absolute;
+    top:60%;
+    right:31%;
+    border:red solid;
+    background-color: pink;
     width:250px;
     height:250px;
 }
