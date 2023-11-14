@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Ejemplo de Formulario</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <h1>ejemplo de formulario</h1>
+    <p>Esta página contiene varios ejemplos de Javascript aplicados a formularios.</p>
+    <hr>
+    <h2>Activar y desactivar elementos</h2>
+    <p>Al seleccionar "Directo" se activan las subopciones. Al seleccionar "Mediante prueba", se deseleccionan.</p>
+    <form>
+        <fieldset id="a1">
+            <legend>Requisitos de acceso</legend>
+            <ul>
+                <li><input type="radio">Directo</li><ul>
+                    <li><input type="radio">Bachillerato LOGSE. Modalidad:<input type="text" size="20"></li>
+                    <li><input type="radio">Bachillerato experimental</li>
+                    <li><input type="radio">COU. Opción: <input type="text" size="20"></li>
+                    <li><input type="radio">FP2</li>
+                    <li><input type="radio">Otros (especifique):<input type="text" size="20"></li>
+                </ul>
+                <li><input type="radio">Mediante prueba</li>
+            </ul>
+        </fieldset>
+        <hr>
+        <h2>Modificar una lista en función de otra</h2>
+        <p>Al seleccionar un nivel, la lista de cursos ofrece las opciones posibles para ese nivel</p>
+        <fieldset id="a2">
+            <legend>Datos personales</legend>
+            <p>Nivel <select><option selected></option><option>111111111</option><option>2</option></select> - Curso: <select></select></p>
+        </fieldset>
+        <hr>
+        <h2>Avisar de que algo no está relleno</h2>
+        <p>Al enviar el formulario, avisa de que no se ha rellenado algún campo.</p>
+        <fieldset id="a3">
+            <legend>Datos personales</legend>
+            <ul>
+                <li><p>Nombre: <input type="text" size="40"></p></li>
+                <li><p>Nacido en: <select><option selected></option><option>Asturias</option></select></p></li>
+                <li><p>Sexo: <input type="radio">Hombre <input type="radio">Mujer</p></li>
+            </ul>
+            <input id="b" type="reset" value="Borrar todo">
+            <input id="b" type="submit" value="Comprobar">
+        </fieldset>
+</body>
+</html>

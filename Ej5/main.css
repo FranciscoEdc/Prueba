@@ -1,0 +1,32 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-size:x-large;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: gainsboro;
+}
+p{
+    margin: 5px;
+}
+legend{
+    background-color: white;
+    border: solid gainsboro;
+    display: inline-block;
+}
+fieldset{
+    border: solid darkgray;
+}
+#a1{
+    background-color: gainsboro;
+}
+#a2{
+    background-color: beige;
+}
+#a3{
+    background-color: skyblue;
+}
+#b{
+    float: right;
+}
