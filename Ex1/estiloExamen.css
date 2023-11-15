@@ -1,0 +1,77 @@
+body{
+    background-image: url("fondo.jpg");
+    font-family: serif;
+}
+#verde{
+    background-color: #5FAD70;
+}
+h1{
+    margin-left: 36%;
+    background-color: #5FAD70;
+    border: solid;
+    border-style: dotted;
+    display: inline-block;
+    padding: 30px 50px 30px 50px;
+}
+table{
+    border-collapse: collapse;
+}
+td{
+    width:30%;
+    border: solid;
+    margin:0%;
+}
+#a{
+    width:30%;
+    float:left;
+    margin-left: 3%;
+}
+textarea{
+    margin-left: 9%;
+}
+#b{
+    width:30%;
+    float:left;
+}
+fieldset{
+    border: none;
+    margin: 5%;
+}
+legend{
+    background-color: #5FAD70;
+}
+#c{
+    border: solid;
+    width:30%;
+    float:left;
+}
+img{
+    margin-left: 25%;
+    margin-bottom: 20%;
+}
+#d{
+    margin-left: 3%;
+    border: solid;
+    width:29.5%;
+    float:left;
+}
+#btn{
+    margin-left: 36%;
+    margin-top: 60%;
+    margin-bottom: 5.8%;
+}
+#e{
+    border: solid;
+    width:30%;
+    float:left;
+}
+#f{
+    width:30.1%;
+    float:left;
+}
+#g{
+    border: solid;
+    width:29.8%;
+    height:20%;
+    float:left;
+}

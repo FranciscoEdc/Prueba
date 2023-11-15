@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Formulario de registro</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='estiloExamen.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <h1>Formulario de registro</h1>
+    <form>
+        <div id="a">
+            <table>
+                <colgroup>
+                    <col style="background-color: #5FAD70;">
+                </colgroup>
+                <tr>
+                    <td>Nombre</td>
+                    <td><input type="text" name="nombre"></td>
+                </tr>
+                <tr>
+                    <td>E-mail</td>
+                    <td rowspan="2"><input type="text" name="e-mail"><br><input type="text" name="clave"></td>
+                </tr>
+                <tr>
+                    <td>Clave</td>
+                </tr>
+                <tr>
+                    <td>Edad</td>
+                    <td><input type="date" name="edad"></td>
+                </tr>
+                <tr>
+                    <td>Sexo</td>
+                    <td><select><option>Hombre</option><option>Mujer</option></select></td>
+                </tr>
+                <tr>
+                    <td>Confirmar E-mail</td>
+                    <td rowspan="2"><input type="text" name="e-mail"><br><input type="text" name="clave"></td>
+                </tr>
+                <tr>
+                    <td>Confirmar Clave</td>
+                </tr>
+            </table>
+        </div>
+        <div id="b">
+            <table>
+                <tr id="verde">
+                    <td>Observaciones:</td>
+                </tr>
+                <tr>
+                    <td><textarea cols="50" rows="16"></textarea></td>
+                </tr>
+            </table>
+        </div>
+        </div>
+        <div>
+        <div id="c">
+            <fieldset>
+                <legend>Instrucciones de uso de formulario</legend>
+                <ol>
+                    <li>Datos obligatorios:</li><ol type="a">
+                        <li>nombre</li>
+                        <li>nombre</li>
+                        <li>apellido</li>
+                        <li>e-mail</li>
+                        <li>clave</li>
+                    </ol>
+                    <li>Los datos de los usuarios no seran utilizados con fines comerciales ni se venderan a terceros.</li>
+                    <li>Los datos del formulario podran ser utilizados con fines estadisticos por la propia empresa</li>
+                    <li>Los datos del formulario podran ser utilizados con fines estadisticos por la propia empresa</li>
+                </ol>
+            </fieldset>
+        </div>
+        <div id="d">
+            <img src="iesVC.jpg" alt="IES Virgen de Covadonga">
+        </div>
+        <div id="e">
+            <input id="btn" type="submit" value="enviar"><input type="reset" value="borrar datos">
+        </div>
+        <div id="f">
+            <table>
+                <tr>
+                    <td id="verde">Aceptar las condiciones</td>
+                    <td><input type="radio" name="acpt-cond" value="si">Si<br><input type="radio" name="acpt-cond" value="no">No</td>
+                </tr>
+            </table>
+        </div>
+        <div id="g"><br><br></div>
+    </form>
+</body>
+</html>
