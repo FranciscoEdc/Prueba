@@ -7,16 +7,24 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='prueba.js'>var a = Document.getElementById("a");</script>
+    <script type="text/javascript">
+        window.onload = function() {
+            document.getElementById('a').innerHTML = "¡Adiós, mundo cruel!";
+            document.getElementById('a').style.color = "red"
+        }
+    </script>
 </head>
 <body>
     <p id="a">Hola, mundo.</p>
-    <button type="button"
+    <button name="boton" type="button"
     onclick="document.getElementById('a').innerHTML = '¡Adiós, mundo cruel!';
-    document.getElementById('a').style.color = 'red'">
+    document.getElementById('a').style.color = 'red';
+    document.getElementsByClassName('boton').style.backgroundColor = 'red';">
     Clica aquí</button>
-    <button type="button"
+    <button name="boton" type="button"
     onclick="document.getElementById('a').innerHTML = 'Hola, mundo.';
-    document.getElementById('a').style.color = 'lime'">
+    document.getElementById('a').style.color = 'lime';
+    document.getElementsByClassName('boton').style.backgroundColor = 'grey';">
     Clica aquí también</button>
 </body>
 </html>
