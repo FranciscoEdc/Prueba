@@ -10,7 +10,7 @@ window.onload = function() {
 	innerHTML = innerHTML + "Hay " + nenlaces + " enlaces.";
 	// Direccion del penultimo enlace
 	var penlaces = document.getElementsByTagName("a");
-	innerHTML = innerHTML + <br> + "El penúltimo enlace apunta a " + penlaces[enlaces - 2];
+	innerHTML = innerHTML + <br> + "El penúltimo enlace apunta a " + penlaces[nenlaces - 2];
 	// Numero de enlaces que apuntan a http://prueba
 	var contador = 0;
 	for(var i=0; i<penlaces.length; i++) {
