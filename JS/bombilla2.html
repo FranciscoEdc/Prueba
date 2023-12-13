@@ -6,10 +6,11 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <script>
         function cambiar(){
-            if (document.getElementById('bombilla').src="bombillaapagada.png") {
-                document.getElementById('bombilla').src="bombillaencendida.png";
-            } else {
-                document.getElementById('bombilla').src="bombillaapagada.png";
+            document.getElementById("bombilla")
+            if (bombilla.src.match("bombillaapagada.png")) {
+                bombilla.src="bombillaencendida.png"
+            }else{
+                bombilla.src="bombillaapagada.png"
             }
         }
     </script>
