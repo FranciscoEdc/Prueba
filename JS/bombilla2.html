@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script>
+        function cambiar(){
+            if (document.getElementById('bombilla').src="bombillaapagada.png") {
+                document.getElementById('bombilla').src="bombillaencendida.png";
+            } else {
+                document.getElementById('bombilla').src="bombillaapagada.png";
+            }
+        }
+    </script>
+</head>
+<body>
+    <img id="bombilla" src="bombillaapagada.png">
+    <br>
+    <button onclick="cambiar()">Interruptor</button>
+</body>
+</html>
