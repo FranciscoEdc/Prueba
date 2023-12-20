@@ -10,6 +10,7 @@
 </head>
 <body>
     <div id="a">
+    <img src="gnu.png" id="gnu">
     <h1>Test de <i>software</i></h1>
     <p>¿Qué es GNU Linux?</p>
     <p><input type="radio" name="a" value="0">Un kernel para construir sistemas operativos.</p>
@@ -32,11 +33,23 @@
     <p><input type="radio" name="d" value="2">FreeBSD</p>
     <p><input type="radio" name="d" value="3">GNU Linux</p>
     <p>¿Cuál es la mejor distribución de Linux? ;)</p>
-    <p><input type="radio" name="e" value="0">Gentoo</p>
+    <p><input type="radio" name="e" value="0">RedStarOS</p>
     <p><input type="radio" name="e" value="1">NixOS</p>
     <p><input type="radio" name="e" value="2">LFS</p>
     <p><input type="radio" name="e" value="3">Arch Linux</p>
-    <br><button onclick="resultado()">Comprobar
+    <p>Escribe exactamente qué significan las siglas GNU.</p>
+    <p><input type="text" id="f"></p>
+    <p>Indica cuáles de los siguientes sistemas operativos pueden utilizarse (o se usan) desde la RAM.</p>
+    <p><input type="checkbox" name="g" value="0">Ubuntu</p>
+    <p><input type="checkbox" name="g" value="1">Windows 11</p>
+    <p><input type="checkbox" name="g" value="2">KolibriOS</p>
+    <p><input type="checkbox" name="g" value="3">FreeBSD</p>
+    <p><input type="checkbox" name="g" value="4">NomadBSD</p>
+    <p><input type="checkbox" name="g" value="5">TailsOS</p>
+    <p><input type="checkbox" name="g" value="6">QubesOS</p>
+    <p><input type="checkbox" name="g" value="7">NixOS</p>
+    <br><button onclick="resultado()">Comprobar</button>
+    <p id="tc">Al enviar este formulario, aceptas que los datos ingresados se usarán para fines (no) lucrativos y estadísticos; además, los compartiremos con terceros para ofrecer el mejor servicio.</p>
     </div>
 </body>
 </html>

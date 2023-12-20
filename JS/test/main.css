@@ -5,7 +5,13 @@
     background-color: white;
 }
 body{
-    background-color: lime;
+    background-color: steelblue;
     font-family: 'Times New Roman', Times, serif;
     font-size: large;
+}
+#gnu{
+    float: right;
+}
+#tc{
+    font-size: xx-small;
 }
