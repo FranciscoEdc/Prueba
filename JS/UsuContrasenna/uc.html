@@ -6,13 +6,22 @@
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main2.js'></script>
+    <script src='main.js'></script>
 </head>
 <body>
-    <p>Usuario: </p>
-    <input type="text" name="usu">
-    <p>Contraseña: </p>
-    <input type="text" name="cont">
+    <form>
+    <p>Nombre: </p>
+    <input type="text" id="nom" required>
+    <p>Apellidos: </p>
+    <input type="text" id="ape" required>
+    <p>Clave: </p>
+    <input type="text" id="cla" minlength="4" maxlength="10" required>
+    <p>Edad: </p>
+    <input type="number" id="eda" min="18" required>
+    <p>Sexo: </p>
+    <input type="radio" id="sex" value="H" name="sexo" required>H
+    <input type="radio" id="sex" value="M" name="sexo" required>M
     <br><button onclick="enviar()">Enviar</button>
+    </form>
 </body>
 </html>
