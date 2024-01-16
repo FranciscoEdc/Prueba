@@ -7,59 +7,16 @@
 <script type="text/javascript">
 window.onload = function() {
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   var info = document.getElementById("informacion");
 
   // Numero de enlaces de la pagina
   var enlaces = document.getElementsByTagName("a");
   info.innerHTML = "Numero de enlaces = "+enlaces.length;
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-
   // Direccion del penultimo enlace
   var mensaje = "El penultimo enlace apunta a: "+enlaces[enlaces.length-2];
   info.innerHTML = info.innerHTML + "<br/>" + mensaje;
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-
   // Numero de enlaces que apuntan a http://prueba
   var contador = 0;
   for(var i=0; i<enlaces.length; i++) {
@@ -77,6 +34,11 @@ window.onload = function() {
   info.innerHTML = info.innerHTML + "<br/>" + "Numero de enlaces del tercer párrafo = "+enlaces.length;
 }
 </script>
+
+
+
+
+
 </head>
 
 <body>

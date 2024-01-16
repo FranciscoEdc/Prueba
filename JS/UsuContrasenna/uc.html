@@ -9,19 +9,21 @@
     <script src='main.js'></script>
 </head>
 <body>
+    <div id="a">
     <form>
     <p>Nombre: </p>
-    <input type="text" id="nom" required>
+    <input type="text" id="nom">
     <p>Apellidos: </p>
-    <input type="text" id="ape" required>
+    <input type="text" id="ape">
     <p>Clave: </p>
-    <input type="text" id="cla" minlength="4" maxlength="10" required>
+    <input type="text" id="cla">
     <p>Edad: </p>
-    <input type="number" id="eda" min="18" required>
+    <input type="number" id="eda">
     <p>Sexo: </p>
-    <input type="radio" id="sex" value="H" name="sexo" required>H
-    <input type="radio" id="sex" value="M" name="sexo" required>M
-    <br><button onclick="enviar()">Enviar</button>
+    <input type="radio" value="H" name="sexo">H
+    <input type="radio" value="M" name="sexo">M
+    <br><button onclick="validar()">Validar</button>
     </form>
+    </div>
 </body>
 </html>
