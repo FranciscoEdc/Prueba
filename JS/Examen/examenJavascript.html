@@ -1,0 +1,57 @@
+<html>
+<head>
+  <style type="text/css">
+    .oculto {display: none;}
+    .visible {display: inline;}
+  </style>
+<script src="examenjs.js"></script>
+</head>
+<body>
+  <h1>1) Comprobar que el usuario es jose y el password 1234. Al pulsar el botón dira usuario correcto (en verde), en caso contrario usuario erroneo (en rojo) 2,5 pts</h1>
+<form id="formulario" >
+    <p>
+      Usuario: <input type="text" id="usuario">
+    </p>
+    <p>
+      Clave: <input type="text" id="clave">
+    </p>
+   <input type="button" value="enviar" onclick="iniciar()"/>
+  </form>
+  <p id="sesion"></p>
+  <h1> 2) Hacer que al presionar el enlace seguir lellendo se muestre el resto del texto y si se pulsa clonar parrafo se genere otro parrafo con el mismo contenido que el que se muestra 2,5 pts</h1>
+  <p id="texto">El Rally Dakar de 2024 es la cuadragésima sexta edición. Se lleva a cabo desde el 5 hasta el 19 de enero de 2024, y por quinto año consecutivo en Arabia Saudita. Es organizada por Amaury Sport Organisation (ASO).1​ <span id="adicional" class="oculto">El esquema de la ruta de la carrera se presentó el 20 de noviembre de 2023. La ruta comenzará con una etapa «prólogo» saliendo y llegando a Alula. La ruta vuelve este año al «Cuadrante Vacío». </span></p>
+  <p id="clon"></p>
+<a id="enlace" href="#" onclick="continuar()" >Seguir leyendo</a>
+<a id="enlace" href="#" onclick="clonar2()">Clonar parrafo</a> <!--En el examen ta puestu "clonar()". "clonar2()" ye después del examen.-->
+
+
+<h1>3) Pide una nota (número). Al pulsar el boton muestra la calificación según la nota(en un popup):
+
+  0-3: Muy deficiente
+  3-5: Insuficiente
+  5-6: Suficiente
+  6-7: Bien
+  7-9: Notable
+  9-10: Sobresaliente
+ 2,5 pts</h1>
+<form id="formulario2" >
+  <p>
+    Nota: <input id="numero" type="number">
+  </p>
+  
+ <input type="button" value="validad" onclick="nota()"/>
+
+ <p id="nota"></p>
+
+</form>
+
+<!--Nun fice el siguiente ejerciciu nel examen.-->
+
+<h1>4) Realiza un script que al pulsar el siguiente bojon escriba los números del 1 al 50, que indique cuales son múltiplos de 2 y que cada 5 líneas muestre una línea horizontal. 2,5 pts</h1>
+
+<input type="button" value="generar" onclick="generarwhile()"/>
+
+<p id="salida"></p>
+
+  </body>
+  </html>
