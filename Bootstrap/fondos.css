@@ -1,0 +1,29 @@
+.fondo-verde, .fondo-azul, .fondo-rojo, .fondo-violeta, .fondo-naranja {
+    border: 1px solid white;
+    text-align: start;
+}
+
+.fondo-verde {
+    background-color: aquamarine;
+    font-size: xx-large;
+    height: 60px;
+}
+
+.fondo-azul {
+    background-color: lightskyblue;
+    height: 60px;
+}
+
+.fondo-rojo {
+    background-color: red;
+}
+
+.fondo-violeta {
+    background-color: violet;
+    font-size: x-large;
+}
+
+.fondo-naranja {
+    background-color: orange;
+    height: 120px;
+}
