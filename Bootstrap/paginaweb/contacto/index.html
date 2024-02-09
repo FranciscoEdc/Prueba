@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="es" data-bs-theme="auto">
+<html lang="es" class="h-100" data-bs-theme="auto">
   <head><script src="../assets/js/color-modes.js"></script>
 
     <meta charset="utf-8">
@@ -98,7 +98,7 @@
 
     
     <!-- Custom styles for this template -->
-    <link href="checkout.css" rel="stylesheet">
+    <link href="../cover.css" rel="stylesheet">
   </head>
   <body class="bg-body-tertiary">
     <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
@@ -152,6 +152,19 @@
       </ul>
     </div>
 
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+
+    <header class="mb-auto">
+      <div>
+        <h3 class="float-md-start mb-0">Mi página web</h3>
+        <nav class="nav nav-masthead justify-content-center float-md-end">
+          <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="../index.html" target="_blank">Inicio</a>
+          <a class="nav-link fw-bold py-1 px-0" href="#">Contactar</a>
+          <a class="nav-link fw-bold py-1 px-0" href="../galeria/index.html" target="_blank">Galería</a>
+          <a class="nav-link fw-bold py-1 px-0" href="../caracteristicas/index.html" target="_blank">DF BSD</a>
+        </nav>
+      </div>
+    </header>
     
 <div class="container">
   <main>
@@ -195,21 +208,25 @@
                 Escribe qué quieres decir.
               </div>
             </div>
+            <div class="col-lg-6 col-xxl-4 my-5 mx-auto">
+              <div class="d-grid gap-2">
+                <button class="btn btn-primary" type="button">Enviar formulario</button>
+              </div>
+            </div>
         </form>
       </div>
     </div>
   </main>
 
-  <footer class="my-5 pt-5 text-body-secondary text-center text-small">
-    <p class="mb-1">&copy; 2017–2023 Francisco FG</p>
-    <ul class="list-inline">
-      <li class="list-inline-item"><a href="#">Privacidad</a></li>
-      <li class="list-inline-item"><a href="#">Términos y condiciones</a></li>
-      <li class="list-inline-item"><a href="#">Soporte</a></li>
-    </ul>
+  <footer class="mt-auto text-white-50">
+    <p><br><br><br>Sitio creado por Francisco Felgueroso González con una plantilla de Bootstrap.</p>
   </footer>
 </div>
 <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
 
-    <script src="checkout.js"></script></body>
+    <script src="checkout.js"></script>
+  
+</div>
+
+  </body>
 </html>
